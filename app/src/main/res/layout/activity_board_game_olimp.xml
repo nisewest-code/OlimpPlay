@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".board.BoardGameOlimp"
+    android:background="@drawable/bg1"
+    android:id="@+id/container">
+
+    <TextView
+        android:id="@+id/scoreP1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:text="Player1: 10"/>
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:id="@+id/vorota1"
+        android:src="@drawable/vorota1"
+        android:layout_width="200dp"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_alignParentEnd="true"
+        android:id="@+id/scoreP2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:text="Player2: 10"/>
+
+    <ImageView
+        android:id="@+id/person1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/vorota1"
+        android:layout_width="100dp"
+        android:rotation="-90"
+        android:layout_height="wrap_content"
+        android:src="@drawable/person1"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:id="@+id/myach"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/myach" />
+
+    <ImageView
+        android:id="@+id/person2"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/vorota2"
+        android:rotation="-90"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/person2"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/vorota2"
+        android:rotation="180"
+        android:src="@drawable/vorota2"
+        android:layout_width="200dp"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

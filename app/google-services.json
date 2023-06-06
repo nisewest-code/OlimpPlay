@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "338943824292",
+    "project_id": "olimp-play-8da93",
+    "storage_bucket": "olimp-play-8da93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338943824292:android:1d8f1881fa4cfd883df131",
+        "android_client_info": {
+          "package_name": "com.olim.pplay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXdmbJ0d0RDIrpavyMscLuhEWk2G35nJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
